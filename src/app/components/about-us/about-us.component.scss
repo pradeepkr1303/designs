@@ -1,0 +1,30 @@
+// font-family: 'Courgette', cursive;
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+// font-family: 'Rokkitt', serif;
+@import url('https://fonts.googleapis.com/css?family=Rokkitt&display=swap');
+
+$main-bg-color: #123456;
+
+.people-intro {
+    text-align: center;
+    .user-photo {
+        // background-color: #123456;
+        padding: 20px 0 20px;
+        border: $main-bg-color solid 2px;
+        border-radius: 20%;
+        img {
+            width: auto;
+            height: 250px;
+            border-radius: 50%;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+    }
+    .name {
+        font-family: 'Courgette', cursive;
+    }
+    .role {
+        font-family: 'Rokkitt', serif;
+    }
+}
