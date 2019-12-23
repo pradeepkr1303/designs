@@ -1,0 +1,5 @@
+<div class="row container">
+   <div class="col-md-3 image-container" *ngFor="let image of _albums; let i=index">
+      <img [src]="image.thumb" class="img-thumbnail" (click)="open(i)" />
+   </div>
+</div>
